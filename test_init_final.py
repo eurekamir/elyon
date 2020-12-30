@@ -2491,7 +2491,7 @@ class mainCog(commands.Cog):
 				fixedboss_information[0] = '``` ```'
 	
 			embed = discord.Embed(
-					title = "----- 고 정 보 스 -----",
+					title = "----- 차 원 포 탈 -----",
 					description= fixedboss_information[0],
 					color=0x0000ff
 					)
@@ -2516,7 +2516,7 @@ class mainCog(commands.Cog):
 				boss_information[0] = '``` ```'
 
 			embed = discord.Embed(
-					title = "----- 보스탐 정보 -----",
+					title = "----- 숨결 보스 정보 -----",
 					description= boss_information[0],
 					color=0x0000ff
 					)
@@ -2544,7 +2544,7 @@ class mainCog(commands.Cog):
 				tmp_boss_information[0] = '``` ```'
 
 			embed = discord.Embed(
-				title = "----- 미예약 보스 -----",
+				title = "----- 미입력  보스 -----",
 				description= tmp_boss_information[0],
 				color=0x0000ff
 				)
